@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COUNTDOWN</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="date">
+      <label for="text">Select date</label>
+      <input type="date" name="date" id="select_date" />
+    </div>
+    <div class="clock">
+      <!-- DAY -->
+      <div class="days_wr wrapper">
+        <h1 id="day_num">00</h1>
+        <div class="days styles" id="days">
+          <span class="today">Days</span>
+        </div>
+      </div>
+      <span class="wr">:</span>
+      <!-- HOURS -->
+      <div class="hours_wr wrapper">
+        <h1 id="hour_num">00</h1>
+        <div class="hours styles" id="hours">
+          <span class="today">Hours</span>
+        </div>
+      </div>
+      <span class="wr">:</span>
+      <!-- MINUTES -->
+      <div class="minutes_wr wrapper">
+        <h1 id="minut_num">00</h1>
+        <div class="minuts styles" id="minutes">
+          <span class="today">Minutes</span>
+        </div>
+      </div>
+      <span class="wr">:</span>
+      <!-- SECONDES -->
+      <div class="secondes_wr wrapper">
+        <h1 id="second_num">00</h1>
+        <div class="secondes styles" id="seconds">
+          <span class="today">Secondes</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+
+*, body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(/iPad\ \(1\).png) no-repeat;
+    background-size: cover;
+}
+    
+    .clock{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    align-items: center;
+     gap: 10px;
+    
+}
+.date{
+margin-top: 20px;
+background-color: aliceblue;
+width: 350px;
+height: 150px;
+margin: auto;
+display: flex;
+flex-direction: column;
+border-radius: 8px;
+background:url(/iPad\ \(1\).png);
+background-size: cover;
+box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+} 
+label{ 
+    padding-top: 20px;
+    font-size:45px;
+    font-weight:700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+       
+}
+
+.date input{
+    width: 150px;
+    height: 45px;
+    margin: auto;
+   border-radius: 8px;
+   padding-left:15px ;
+   font-size: 18px;
+   font-weight: 800;
+   margin-bottom: 20px;
+      
+}
+h1{padding-top: 50px;
+    font-size: 100px;
+    font-family: sans-serif;
+    cursor: context-menu;
+}
+.wr{
+    font-size:85px;
+    font-weight: 700;
+cursor: context-menu;
+}
+.clock> div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border: 2px solid rgb(152, 166, 125);
+    font-family: "Barlow",sans-serif;}
+.clock  .styles{
+    padding-top: 50px;
+    font-weight: 550;
+    font-size: 45px;
+    cursor: context-menu;
+    justify-content: space-between;
+
+}
+
